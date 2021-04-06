@@ -72,7 +72,7 @@ def get_the_key_of_a_value(dic,max_value,all_imp_values):
 
 if __name__ == '__main__':
     # read the value file and add columns names
-    df_value = pd.read_csv("value_file_01_04.csv", header=None)
+    df_value = pd.read_csv("value_file_06_04.csv", header=None)
     df_value.columns = ['index','value']
    # df_value = df_value.drop(df_value.index[0])
     new_values = []

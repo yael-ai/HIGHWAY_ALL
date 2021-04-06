@@ -59,4 +59,4 @@ if __name__ == '__main__':
                                         sorted_list_val,sorted_index)
     for index,file in enumerate(files):
         original_name = file
-        os.rename(os.path.join(path, file), os.path.join(pathll, ''.join([str(sorted_index[index]),'_',str(sorted_video_num[index]),'_',str(sorted_list_sec[index]),'.mp4'])))
+        os.rename(os.path.join(path, file), os.path.join(path, ''.join([str(sorted_index[index]),'_',str(sorted_video_num[index]),'_',str(sorted_list_sec[index]),'.mp4'])))
