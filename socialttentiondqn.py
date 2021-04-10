@@ -62,7 +62,7 @@ env.config["lanes_count"] = 4
 env.reset()
 agent = load_agent(agent_config, env)
 evaluation = Evaluation(env, agent, num_episodes=3000, display_env=False)
-print("YES train!")
+print("10/04/2021")
 print("From git")
 print(f"Ready to train {agent} on {env}")
 
