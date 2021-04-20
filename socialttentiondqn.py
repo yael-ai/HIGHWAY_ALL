@@ -55,7 +55,7 @@ env_config = 'configs/HighwayEnv/env.json'
 agent_config = 'configs/HighwayEnv/agents/DQNAgent/ddqn.json'
 
 env = load_environment(env_config)
-env.config["lanes_count"] = 4
+#env.config["lanes_count"] = 4
 #env.config["vehicles_count"]=30
 #env.config["vehicles_density"] = 2
 
@@ -84,7 +84,7 @@ Run the learned policy for a few episodes.
 
 env = load_environment(env_config)
 env.configure({"offscreen_rendering": True})
-env.config["lanes_count"] = 4
+#env.config["lanes_count"] = 4
 #env.config["vehicles_count"]=30
 #env.config["vehicles_density"] = 2
 env.reset()
