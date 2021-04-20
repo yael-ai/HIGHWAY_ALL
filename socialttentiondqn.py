@@ -62,7 +62,7 @@ env = load_environment(env_config)
 env.reset()
 agent = load_agent(agent_config, env)
 evaluation = Evaluation(env, agent, num_episodes=3000, display_env=False)
-print("11/04/2021")
+print("20/04/2021")
 print("git work!?!")
 print(f"Ready to train {agent} on {env}")
 
